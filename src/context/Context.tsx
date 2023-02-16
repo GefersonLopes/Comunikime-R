@@ -11,7 +11,8 @@ import { toast } from 'react-toastify';
 export const Context = createContext({} as GlobalInterfaceContext);
 
 export const ContextProvider = ({ children }: INode) => {
-  const url = 'http://localhost:3003';
+  // const url = 'http://localhost:3003';
+  const url = 'https://comunikeme.onrender.com'
   const navigate = useNavigate();
   const [listProducts, setListProducts] = useState<IProduct[]>([]);
   const [IalterValue, setIalterValue] = useState(false);
