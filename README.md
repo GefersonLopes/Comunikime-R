@@ -5,14 +5,14 @@ LINKEDIN -> [https://www.linkedin.com/in/algeferson/]
 
 # QUAL É O LINK DO DEPLOY?
 
-Este é o link direto para a aplicação [https://ndm.vercel.app/]
+Este é o link direto para a aplicação [https://comunikime.vercel.app/]
 
 # QUAL O LINK DA APRESENTAÇÃO DO VÍDEO DO YOUTUBE?
 
 Gravei um vídeo explicativo da minha aplicação como está funcionando porque sei que poucará um pouco do seu tempo,
 mas tá bem bacana, dá pra entender um pouco do projeto realizado.
 
-Link do vídeo: [https://youtu.be/M-oqvvNtKl4]
+Link do vídeo: [https://youtu.be/S8_Z7Pe5XPs]
 
 # COMO RODAR A APLICAÇÃO FRONT END? 
 
