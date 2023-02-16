@@ -15,7 +15,8 @@ import jwt_decode from 'jwt-decode';
 export const ContextLogic = createContext({} as InterfaceContextLogic);
 
 export const ContextProviderLogic = ({ children }: INode) => {
-  const url = 'http://localhost:3003';
+  // const url = 'http://localhost:3003';
+  const url = 'https://comunikeme.onrender.com';
   const navigate = useNavigate();
   const [isLoad, setIsLoad] = useState(true);
   const [idProduct, setIdProduct] = useState('');
@@ -48,7 +49,8 @@ export const ContextProviderLogic = ({ children }: INode) => {
         setIsLoad(true);
         navigate('/dashboard/products');
       })
-      .catch(() => {
+      .catch((err) => {
+        console.log(err);
         toast.error('Seus dados estão incorretos!');
       });
   };
